@@ -45,7 +45,7 @@ fn run() -> Result<(), Box<dyn Error>> {
         .get_matches();
 
     let retries = value_t!(args.value_of("retries"), usize)?;
-    let duration = value_t!(args.value_of("duration"), u64)? * 100;
+    let duration = value_t!(args.value_of("duration"), u64)? * 1000;
     let method = value_t!(args.value_of("method"), Methods)?;
 
     let mut command = match args.subcommand {
