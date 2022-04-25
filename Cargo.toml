@@ -9,7 +9,7 @@ edition = "2018"
 categories = ["command-line-utilities"]
 
 [[bin]]
-name = "retry"
+name = "retry-cli"
 path = "src/main.rs"
 
 [dependencies]
