@@ -17,6 +17,6 @@ retry = "1.0.0"
 clap = {version = "2.33.0", default-features = false}
 
 [profile.release]
-strip = true  # Automatically strip symbols from the binary.
-opt-level = "z"  # Optimize for size.
-lto = true
+strip=true  # Automatically strip symbols from the binary.
+opt-level="z"  # Optimize for size.
+lto=true
