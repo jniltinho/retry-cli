@@ -63,4 +63,4 @@ install-target:
 
 install-plugins: 
 	cargo install cargo-get cargo-edit
-	#sudo apt-get install -y musl-tools mingw-w64
+	#sudo apt-get install -y musl-tools gcc-mingw-w64-x86-64
