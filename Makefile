@@ -58,6 +58,7 @@ get-bat:
 	cargo install --path bat
 	rm -rf bat
 	cp /usr/local/cargo/bin/bat .
+	upx --best --lzma bat
 	tar -zcf bat-linux64.tar.gz bat
 	rm -f bat
 
