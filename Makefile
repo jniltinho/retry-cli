@@ -62,9 +62,6 @@ get-bat:
 	tar -zcf bat-linux64.tar.gz bat
 	rm -f bat
 
-
-deploy-devops
-
 install-rust: 
 	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 	source $HOME/.profile
